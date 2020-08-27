@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="warface">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{14e1366e-5862-4a21-bbbc-5d68f2809b83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vmt.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="cFunction.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="cClasses.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="cSDK.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameHook.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="cTools.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cDraw.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cVar.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenuTool.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cAmmoHack.h">
+      <Filter>warface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
